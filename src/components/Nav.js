@@ -22,6 +22,7 @@ const Nav = () => {
           text-transform: uppercase;
           color: ${({ theme }) => theme.colors.black};
           transition: color 0.3s linear;
+          margin-right:2rem;
         }
         &:hover,
         &:active {
